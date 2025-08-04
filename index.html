@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Моя визитка</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f4f8;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            text-align: center;
+            padding: 30px;
+            width: 300px;
+        }
+
+        .avatar {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+
+        h1 {
+            margin: 10px 0;
+            font-size: 24px;
+            color: #333;
+        }
+
+        p {
+            color: #555;
+        }
+
+        .buttons a {
+            display: inline-block;
+            margin: 10px 5px;
+            padding: 10px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            color: white;
+            background-color: #0077cc;
+            transition: background-color 0.3s ease;
+        }
+
+        .buttons a:hover {
+            background-color: #005fa3;
+        }
+    </style>
+</head>
+<body>
+<div class="card">
+    <img class="avatar" src="https://avatars.fastly.steamstatic.com/8a60946eba2b46789e7fabdd44031914a46f6b4c_full.jpg" alt="Фото профиля">
+    <h1>Владимир Паук</h1>
+    <p>Креативный геймер-дизайнер, стример и начинающий веб-разработчик.</p>
+    <div class="buttons">
+        <a href="https://t.me/agnost1kk" target="_blank">Telegram</a>
+        <a href="https://twitch.tv/ssshhhnuke" target="_blank">HubHub</a>
+    </div>
+</div>
+</body>
+</html>
